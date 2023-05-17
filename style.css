@@ -1,12 +1,22 @@
-*{
+*, ::after, ::before {
     box-sizing: border-box;
 }
+
+/* .body{
+    margin:0;
+    padding: 0;
+    background: red;
+} */
+
 
 .content{
     border: 2px solid red;
 }
 .display{
     background-color: #f2f2f2;
+    border:2px solid green;
+    min-width: 100px;
+  min-height: 50px;
 
 }
 /* body{
