@@ -74,6 +74,18 @@ body{
     cursor: pointer;
 }
 
+.ac-btn{
+    display: flex;
+    flex-grow: 1;
+}
+
+.c-btn{
+    display: flex;
+    flex-grow: 1;
+}
+
+
+
 .button:hover{
     background-color: #f2f2f2;
 }
