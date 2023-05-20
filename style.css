@@ -51,12 +51,21 @@ body{
     font-size: 40px;
 }
 
+div.content{
+    background-color: black;
+}
+
 .keypad{
-    border: 2px solid blue;
+    border: 2px solid blue; 
     display: flex;
     flex-direction: column;
     min-height: 378px;
     margin-top: 10px;
+
+}
+
+div.keypad{
+    background-color: grey; 
 }
 
 .row{
